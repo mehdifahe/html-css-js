@@ -1,0 +1,600 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	height: 47%;
+}
+
+nav{
+	display: flex;
+	flex: 1;
+}
+
+.img-logo{
+
+	padding: 40px 60px;
+	border-right:1px solid #f3f3f3;
+	border-bottom: 1px solid #f3f3f3;
+	z-index: 1;
+	height: 26px;
+}
+
+
+
+.menu{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.menu1{
+	display: flex;
+	border-right:1px solid #f3f3f3;
+}
+
+.lien{
+	padding:20px 18px; 
+}
+
+.product{
+	text-decoration: none;
+	font-family:"Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+	color: #363948;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.learn{
+	text-decoration: none;
+	font-family:"Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+	color: #6c798b;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.learn:hover{
+	color: #363948;
+}
+
+.about{
+	text-decoration: none;
+	font-family:"Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+	color: #6c798b;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+
+.about:hover{
+	color: #363948;
+}
+
+
+.support{
+	text-decoration: none;
+	font-family:"Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+	color: #6c798b;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.support:hover{
+	color: #363948;
+}
+
+.pricing{
+	text-decoration: none;
+	font-family:"Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+	color: #6c798b;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.pricing:hover{
+	color: #363948;
+}
+
+.menu2{
+	display: flex;
+	border-right:1px solid #f3f3f3 ;
+	border-top: 1px solid #f3f3f3 ;
+	background-color: #f9f9f9;
+}
+
+.lien1{
+	padding: 15px 25px;
+}
+
+.features{
+    text-decoration: none;
+	font-family:"Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+	color: #6c798b;
+    font-weight: 550;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.platform{
+    text-decoration: none;
+	font-family:"Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+	color: #6c798b;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.integration{
+    text-decoration: none;
+	font-family:"Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+	color: #6c798b;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.soapbox{
+    text-decoration: none;
+	font-family:"Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+	color: #6c798b;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.features:hover{
+	color: #363948;
+}
+
+.platform:hover{
+	color: #363948;
+}
+
+.integration:hover{
+	color: #363948;
+}
+
+.soapbox:hover{
+	color: #363948;
+}
+
+.menu3{
+	display:flex;
+	justify-content: space-between;
+	width: 32%;
+}
+
+.lien2{
+	padding: 40px 45px;
+	text-align:center;
+	border-right:1px solid #f3f3f3; 
+}
+
+.signup{
+	text-decoration: none;
+	font-family:"Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+	color:#3ea9f5 ;
+    font-weight:700;
+}
+
+.lien2:hover{
+	background-color:#f9f9f9;
+}	
+
+.lien3{
+	padding:45px 45px;
+	text-align:center;
+}
+
+.login{
+	text-decoration: none;
+	font-family:"Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+	color:#6c798b;
+    font-weight:700;
+}
+
+.background-wistia{
+	position: relative;
+	background:url("fond-wistia.png") no-repeat center center;
+	background-size: cover;
+	height:500px;
+}
+
+.titre{
+    position: absolute;
+    top: 190px;
+    left: 110px; 
+    font-weight: 200;
+    font-size: 40px;
+    color: #363945;
+}
+
+.important{
+	color: white;
+}
+
+.video-button{
+	position: absolute;
+	top: 315px;
+	left:110px;
+	font-family: "Walsheim", sans-serif;
+    font-size: 20px;
+    padding: 22px 50px;
+    border:none;
+    background-color: white;
+    border-radius: 8px;
+    color:#363945;
+}
+
+.video-button:hover{
+	border-bottom: 6px solid #e0e0e0;
+}
+
+.box{
+	display: flex;
+	justify-content: space-between;
+}
+
+.first-box{
+	background-color: #FED24A;
+	padding: 45px 58px 50px;
+	font-family:"Walsheim", sans-serif;
+	height: 320px;
+	width: 37%;
+}
+
+.figure-hosting{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 13px;
+}
+
+.wistia-hosting h2{
+	color: #fff;
+	font-size: 23px;
+    line-height: 30px;
+    font-family: "Walsheim", sans-serif;
+    margin-bottom: 15px;
+    font-weight: 100px;
+}
+.wistia-hosting p {
+	line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family: "Walsheim", sans-serif;
+    color: #363945;
+}
+
+.start-hosting button{
+	padding: 17px 16px;
+    font-family: "Walsheim", sans-serif;
+    color: #2A2D35;
+    background-color: #FED24A;
+    border:2px solid #EFEFEF;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    width: 180px;
+}
+
+.hosting:hover{
+	background-color:#EFEFEF;
+}
+
+.second-box{
+	background-color: #51C29F;
+	padding: 45px 58px 50px;
+	font-family:"Walsheim", sans-serif;
+	height: 320px;
+	width: 37%;
+}
+
+.figure-soapbox{
+    width: 50px;
+	height: 50px;
+	margin-bottom: 13px;
+}
+
+.wistia-soapbox h2{
+color: #fff;
+	font-size: 23px;
+    line-height: 30px;
+    font-family: "Walsheim", sans-serif;
+    margin-bottom: 15px;
+    font-weight: 100px;
+}
+
+.wistia-soapbox p{
+	line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family: "Walsheim", sans-serif;
+    color: #363945;
+}
+
+.start-soapbox button{
+	padding: 17px 16px;
+    font-family: "Walsheim", sans-serif;
+    color: #2A2D35;
+    background-color:#51C29F;
+    border:2px solid #EFEFEF;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    width: 180px;
+}
+
+.click-soapbox:hover{
+	background-color:#EFEFEF;
+
+}
+
+.third-box{
+	background-color: #3EA9F5;
+	padding: 45px 58px 50px;
+	font-family:"Walsheim", sans-serif;
+	height: 320px;
+	width: 37%;
+}
+
+.figure-grow{
+	 width: 50px;
+	height: 50px;
+	margin-bottom: 25px;
+}
+
+.wistia-grow h2{
+	color: #fff;
+	font-size: 23px;
+    line-height: 30px;
+    font-family: "Walsheim", sans-serif;
+    margin-bottom: 32px;
+    font-weight: 100px;
+}
+
+.wistia-grow p{
+	line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family: "Walsheim", sans-serif;
+    color: #363945;
+}
+
+.explore button{
+	padding: 17px 16px;
+    font-family: "Walsheim", sans-serif;
+    color: #2A2D35;
+    background-color:#3EA9F5;
+    border:2px solid #EFEFEF;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    width: 180px;
+}
+
+.explore-grow:hover{
+	background-color:#EFEFEF;
+
+}
+
+
+.groupe-img{
+	display: flex;
+	justify-content: space-around;
+  	margin-top: 110px; 
+
+}
+
+.groupe-img p{
+	padding: 0 30px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #9CA8B7;
+}
+
+.mailchimp-img{
+	width:150px;
+	position: relative;
+    top: -60px;
+    left: -16px;
+}
+
+.squarespace-img{
+	width: 250px;
+	position: relative;
+    top: -40px;
+    left: -40px;
+}
+
+.zendesk-img{
+	width: 140px;
+	position: relative;
+    top: -15px;
+    left: -60px;
+}
+
+.unbounce-img{
+	width: 140px;
+    position: relative;
+    top: -13px;
+    left: -39px;
+}
+
+.casper-img{
+	width: 200px;
+    position: relative;
+    top: 22px;
+    left: -15px;
+}
+
+.all-section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 100px; 
+}
+
+.first-tile{
+	margin-left: 40px;
+}
+
+.shine-up{
+	font-size: 18px;
+	font-family: "Walsheim", sans-serif;
+	color: #363945;
+	line-height: 3;
+}
+
+.para-shine-up{
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-family: "Walsheim", sans-serif;
+    font-size: 16px;
+    color: #363945;
+}
+
+.link-shine-up{
+	color: #337AD5;
+	font-family: "Walsheim", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.shine-up-img:hover{
+	background-color: #68b0e1;
+	z-index: 1;
+
+}
+
+.taking-img:hover{
+	background-color: #A0E4D0;
+}
+
+.impact-img:hover{
+	background-color: #e8b3cb;
+}
+
+.terms-of-service{
+	color: #777777;
+    font-size: 18px;
+    padding: 25px 40px;
+    text-align: center;
+    background-color: #e8e7e6;
+    font-family: "Walsheim", sans-serif;
+}
+
+footer{
+	background-color: #2a2d35;
+}
+
+.all-footer{
+	display: flex;
+	justify-content: space-around;
+}
+
+.second-footer-wistia{
+	display: flex;
+  	justify-content: space-between;
+
+}
+
+.product-footer{
+	display: flex;
+	flex-direction: column;
+}
+
+.first-footer-wistia{
+	margin-bottom: 80px;
+}
+
+.first-footer-wistia img{
+	width:50px;
+	padding: 50px 0px 20px;
+}
+
+.first-footer-wistia h2{
+	font-size: 1.4em;
+    line-height: 1.3em;
+    font-weight: 500;
+    font-family: "Walsheim", sans-serif;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.lien-externe{
+	color: #337AD5;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: "Walsheim", sans-serif;
+	font-weight: 400;
+    line-height: 26px;
+}
+
+.first-footer-wistia span{
+	color: white;
+	font-family: "Walsheim", sans-serif;
+ 	font-size: 1.2em;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.lien-externe:hover{
+	text-decoration: underline;
+}
+
+.product-footer{
+	margin-right: 60px;
+	padding-top: 40px;
+}
+
+.product-footer h3 {
+	    font-family: "Walsheim", sans-serif;
+	    color: white;
+	    font-size: 17px;
+	    font-weight: bold;
+	    line-height: 50px;
+}
+
+.all-product{
+	line-height: 29px;
+	color: #b2b9c1;
+	    text-decoration: none;
+	    font-family: "Walsheim", sans-serif;
+	    font-weight: 400;
+}
+
+.all-product:hover{
+	text-decoration: underline;
+}
+
+hr{
+	color:#b2b9c1;
+}
+
+.all-rights{
+	color: #b2b9c1;
+    font-family: "Walsheim", sans-serif;
+    text-align: center;
+    padding:40px 0px 70px;
+}
+
+.important1{
+	color: #b2b9c1;
+    font-family: "Walsheim", sans-serif;
+	text-decoration: none
+}
+
+.important1:hover{
+    text-decoration: underline;
+}
